@@ -1,7 +1,7 @@
 import json
 
 from wyoc_tracker.history import apply_history, write_snapshot
-from wyoc_tracker.models import BoardResult, RoomResult, TeamReport
+from wyoc_tracker.models import BoardResult, TeamReport
 from wyoc_tracker.scraper import (
     parse_play_details,
     parse_round_candidates,
@@ -68,11 +68,11 @@ def test_history_preserves_rank_and_calculates_change(tmp_path):
     assert saved['teams'][0]['rank_change'] == 2
 
 
-def test_notable_board_selection_uses_absolute_imp_first():
+def test_all_boards_are_included_in_board_number_order():
     boards = [
+        BoardResult(3, 'S', 'E-W', 'sample', imp=7),
         BoardResult(1, 'N', 'None', 'sample', imp=2),
         BoardResult(2, 'E', 'N-S', 'sample', imp=-11),
-        BoardResult(3, 'S', 'E-W', 'sample', imp=7, open_room=RoomResult(contract='6H N')),
     ]
     selected = select_boards(boards, limit=2)
-    assert [board.board for board in selected] == [2, 3]
+    assert [board.board for board in selected] == [1, 2, 3]

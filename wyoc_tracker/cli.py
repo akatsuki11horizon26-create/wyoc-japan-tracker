@@ -9,8 +9,9 @@ import sys
 from . import scraper as scraper_module
 from .bbo import configure_scraper
 from .history import apply_history, write_snapshot
+from .html_report import write_outputs
 from .models import BoardResult, RoomResult, TeamReport
-from .render import render_report, write_outputs
+from .render import render_report
 from .scraper import FetchError, discover_latest_completed_round, fetch_reports
 
 
@@ -96,13 +97,14 @@ def main(argv: list[str] | None = None) -> int:
                     "teams": [report.team for report in reports],
                     "output_dir": args.output_dir,
                     "history_dir": args.history_dir,
+                    "formats": ["markdown", "json", "html"],
                 },
                 ensure_ascii=False,
             )
         )
         return 0
-    except FetchError as exc:
-        print(f"取得失敗: {exc}", file=sys.stderr)
+    except (FetchError, RuntimeError) as exc:
+        print(f"生成失敗: {exc}", file=sys.stderr)
         return 2
 
 

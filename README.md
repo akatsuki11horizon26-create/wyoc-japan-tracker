@@ -24,16 +24,20 @@ python -m wyoc_tracker.cli --round 1 --input data/sample_round1.json --output-di
 
 ## GitHub Actions
 
-Actionsの **Analyze WYOC Japan round** を `workflow_dispatch` で起動し、`round_number` を入力します。テスト、WBF取得、DDS、レポート生成を行い、Markdown・JSON・取得キャッシュをartifactに保存します。大会期間中は30分ごとのscheduleでも起動します。
+Actionsの **Analyze WYOC Japan round** を `workflow_dispatch` で起動し、`round_number` を入力します。テスト、WBF取得、DDS、レポート生成を行い、Markdown・JSON・取得キャッシュをartifactに保存します。
+
+現在は誤ったラウンドを自動生成しないよう、定期実行を無効にしています。大会日程と公式結果から対象ラウンドを安全に特定する処理を追加した後にscheduleを有効化します。
 
 ## 解析仕様
 
 - PBNは52枚の重複と各13枚を検証し、不完全な手はDDSを実行しません。
 - DDSは `North/South/East/West × NT/♠/♥/♦/♣` の20セルをBo Haglund DDS（`endplay`）で計算します。
 - Par contractとPar score、実戦契約のダブルダミー上のメイク可能性、実戦トリックとの差を出力します。
-- 注目ボードはIMP差、スラム・ダブル等の契約、両室のトリック差を基準に最大5枚を選びます。
+- 注目ボードは日本側から見た符号付きIMP差を最優先し、スラム・ダブル等の契約、両室のトリック差を補助基準として最大5枚を選びます。
 - ハンドレコードは十字配置で、カード順は `AKQJT98765432`、ボイドは `—` です。
 - プレー記録がない場合、ダブルダミーとの差から特定のミスを断定しません。
+- 公式順位ページがラウンド履歴を提供しない場合、順位は「公式順位ページの取得時点」と明記します。
+- 公式日程の中国時間は日本時間（JST）へ1時間加算して表示します。
 
 ## WBF／Vugraph URL
 

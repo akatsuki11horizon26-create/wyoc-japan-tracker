@@ -14,6 +14,9 @@ class RoomResult:
     score: int | None = None
     auction_url: str | None = None
     play_url: str | None = None
+    auction: list[str] = field(default_factory=list)
+    play: list[str] = field(default_factory=list)
+    record_status: str | None = None
 
 
 @dataclass
@@ -51,8 +54,10 @@ class TeamReport:
     rank: int | None = None
     rank_as_of: str | None = None
     previous_rank: int | None = None
+    rank_change: int | None = None
     next_opponent: str | None = None
     next_start: str | None = None
     vugraph_status: str = "確認できず"
     vugraph_url: str | None = None
+    vugraph_archive_url: str | None = None
     selected_boards: list[BoardResult] = field(default_factory=list)

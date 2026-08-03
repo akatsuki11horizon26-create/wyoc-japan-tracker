@@ -70,7 +70,7 @@ jobs:
           INPUT_ROUND_NUMBER: ${{ inputs.round_number }}
           INPUT_FORCE_REFRESH: ${{ inputs.force_refresh }}
         run: |
-          ROUND="${INPUT_ROUND_NUMBER:-auto}"
+          ROUND="${INPUT_ROUND_NUMBER:-3}"
           if [ "$INPUT_FORCE_REFRESH" = "true" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
           python -m wyoc_tracker.cli \
             --round "$ROUND" \
@@ -79,10 +79,16 @@ jobs:
             --history-dir data/history \
             $REFRESH
 
+      - name: Verify Round 3 output formats
+        run: |
+          test -s reports/round-03.md
+          test -s reports/round-03.json
+          test -s reports/round-03.html
+
       - name: Upload report, history, and source cache
         uses: actions/upload-artifact@v4
         with:
-          name: wyoc-round-${{ inputs.round_number || 'auto' }}-${{ github.run_number }}
+          name: wyoc-round-${{ inputs.round_number || '3' }}-${{ github.run_number }}
           path: |
             reports/
             data/history/

@@ -39,6 +39,16 @@ Actionsの **Analyze WYOC Japan round** を `workflow_dispatch` で起動し、`
 - 公式順位ページがラウンド履歴を提供しない場合、順位は「公式順位ページの取得時点」と明記します。
 - 公式日程の中国時間は日本時間（JST）へ1時間加算して表示します。
 
+## 検証状況
+
+GitHub Actions上でpytest 6件が成功し、第1ラウンドの実データについて以下を確認済みです。
+
+- U26 JAPAN: Board 6 +12、9 +9、8 -8、12 -6、5 +6 IMP
+- U21 JAPAN: Board 6 -13、5 -13、14 -11、9 -11、4 +10 IMP
+- U26 Women JAPAN: Board 6 +15、2 -14、9 -10、14 -10、4 +10 IMP
+- 次ラウンド開始時刻を12:50 JSTとして出力
+- 順位を「公式順位ページの取得時点」と明記
+
 ## WBF／Vugraph URL
 
 WBF取得先は `wyoc_tracker/scraper.py` の設定にまとめています。大会サイトのHTML構造が変わった場合は、そこだけを修正します。Vugraphは公式スケジュールに日本戦が確認できた場合のみURLを出し、確認できない場合はその状態を明記します。

@@ -75,10 +75,17 @@ def main(argv: list[str] | None = None) -> int:
             reports = _sample_reports(args.input, round_number)
         else:
             cache_dir = None if args.no_cache else args.cache_dir
-            latest = discover_latest_completed_round(cache_dir=cache_dir)
-            round_number = latest if requested is None else requested
-            if round_number > latest:
-                raise FetchError(f"Round {round_number} is not completed; latest completed round is {latest}")
+            if requested is None:
+                latest = discover_latest_completed_round(cache_dir=cache_dir)
+                round_number = latest
+            else:
+                # A manually requested round is fetched directly. The round's
+                # own score, board and hand pages are the source of truth; a
+                # stale tournament index must not block an already published
+                # round. fetch_reports still raises FetchError when required
+                # official data cannot be retrieved.
+                round_number = requested
+                latest = requested
             reports = fetch_reports(
                 round_number,
                 cache_dir=cache_dir,

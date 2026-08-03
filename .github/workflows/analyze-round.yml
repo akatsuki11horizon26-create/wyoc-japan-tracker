@@ -38,18 +38,18 @@ jobs:
         working-directory: ${{ github.workspace }}
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Restore WBF HTML cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/cache
           key: wbf-html-${{ runner.os }}-${{ github.run_id }}
@@ -71,7 +71,8 @@ jobs:
           INPUT_FORCE_REFRESH: ${{ inputs.force_refresh }}
         run: |
           ROUND="${INPUT_ROUND_NUMBER:-3}"
-          if [ "$INPUT_FORCE_REFRESH" = "true" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
+          if [ "$INPUT_FORCE_REFRESH" = "true" ] || [ "$ROUND" = "3" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
+          echo "REPORT_ROUND=$ROUND" >> "$GITHUB_ENV"
           python -m wyoc_tracker.cli \
             --round "$ROUND" \
             --output-dir reports \
@@ -79,16 +80,18 @@ jobs:
             --history-dir data/history \
             $REFRESH
 
-      - name: Verify Round 3 output formats
+      - name: Verify output formats
+        if: env.REPORT_ROUND != 'auto'
         run: |
-          test -s reports/round-03.md
-          test -s reports/round-03.json
-          test -s reports/round-03.html
+          PADDED=$(printf '%02d' "$REPORT_ROUND")
+          test -s "reports/round-${PADDED}.md"
+          test -s "reports/round-${PADDED}.json"
+          test -s "reports/round-${PADDED}.html"
 
       - name: Upload report, history, and source cache
         uses: actions/upload-artifact@v4
         with:
-          name: wyoc-round-${{ inputs.round_number || '3' }}-${{ github.run_number }}
+          name: wyoc-round-${{ env.REPORT_ROUND }}-${{ github.run_number }}
           path: |
             reports/
             data/history/

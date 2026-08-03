@@ -14,8 +14,6 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    - cron: "*/30 * * * *"
 
 permissions:
   contents: read
@@ -41,13 +39,13 @@ jobs:
           INPUT_ROUND_NUMBER: ${{ inputs.round_number }}
           INPUT_FORCE_REFRESH: ${{ inputs.force_refresh }}
         run: |
-          if [ -n "$INPUT_ROUND_NUMBER" ]; then ROUND="$INPUT_ROUND_NUMBER"; else ROUND=1; fi
+          ROUND="${INPUT_ROUND_NUMBER:-1}"
           if [ "$INPUT_FORCE_REFRESH" = "true" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
           python -m wyoc_tracker.cli --round "$ROUND" --output-dir reports --cache-dir data/cache $REFRESH
       - name: Upload report and source cache
         uses: actions/upload-artifact@v4
         with:
-          name: wyoc-round-${{ inputs.round_number || 'scheduled' }}
+          name: wyoc-round-${{ inputs.round_number || '1' }}
           path: |
             reports/
             data/cache/

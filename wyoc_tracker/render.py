@@ -19,22 +19,26 @@ def _room_dict(room: RoomResult | None) -> dict[str, Any] | None:
 def _contract_parts(contract: str | None) -> tuple[int, str, str] | None:
     if not contract:
         return None
-    m = re.match(r"([1-7])\s*(NT|[SHDC])(?:X|XX)?\s*([NESW])", contract.upper().replace(" ", ""))
-    if not m:
+    match = re.match(r"([1-7])\s*(NT|[SHDC])(?:X|XX)?\s*([NESW])", contract.upper().replace(" ", ""))
+    if not match:
         return None
-    return int(m.group(1)), m.group(2), m.group(3)
+    return int(match.group(1)), match.group(2), match.group(3)
 
 
 def _dds_table(dds: dict) -> str:
     rows = ["| 宣言者 | NT | ♠ | ♥ | ♦ | ♣ |", "|---|---:|---:|---:|---:|---:|"]
-    for p, label in (("N", "North"), ("S", "South"), ("E", "East"), ("W", "West")):
-        t = dds["tricks"][p]
-        rows.append(f"| {label} | {t['NT']} | {t['S']} | {t['H']} | {t['D']} | {t['C']} |")
+    for player, label in (("N", "North"), ("S", "South"), ("E", "East"), ("W", "West")):
+        tricks = dds["tricks"][player]
+        rows.append(f"| {label} | {tricks['NT']} | {tricks['S']} | {tricks['H']} | {tricks['D']} | {tricks['C']} |")
     return "\n".join(rows)
 
 
 def _par_text(dds: dict) -> str:
-    contracts = ", ".join(c["level"] and f"{c['level']}{c['strain']}{c['declarer']}=" for c in dds["par_contracts"])
+    contracts = ", ".join(
+        f"{contract['level']}{contract['strain']}{contract['declarer']}="
+        for contract in dds["par_contracts"]
+        if contract["level"]
+    )
     return f"{contracts or 'パー契約なし'}（パースコア: {dds['par_score']}）"
 
 
@@ -45,23 +49,49 @@ def _comparison(room: RoomResult | None, dds: dict) -> str:
     if not parts:
         return f"実戦契約 {room.contract} は解析形式に変換できず。"
     level, strain, declarer = parts
-    make = contract_makeable(dds, level, strain, declarer)
+    makeable = contract_makeable(dds, level, strain, declarer)
     dd_tricks = dds["tricks"][declarer][strain]
-    actual = room.tricks
-    gap = "不明" if actual is None else str(actual - dd_tricks)
-    return f"実戦契約 {room.contract} はダブルダミー上{'メイク可能' if make else 'メイク可能ではない'}。{declarer}の最大トリック数は{dd_tricks}、実戦トリックとの差は{gap}。"
+    gap = "不明" if room.tricks is None else str(room.tricks - dd_tricks)
+    return f"実戦契約 {room.contract} はダブルダミー上{'メイク可能' if makeable else 'メイク可能ではない'}。{declarer}の最大トリック数は{dd_tricks}、実戦トリックとの差は{gap}。"
 
 
 def board_markdown(board: BoardResult) -> tuple[str, dict[str, Any]]:
     deal = parse_pbn(board.pbn)
     dds = analyze(deal, board.dealer, board.vulnerability)
-    room_lines = []
+    swing = "IMP確認できず" if board.imp is None else f"日本に{board.imp:+d} IMP"
+    room_lines = [f"- **スイング**: {swing}"]
     for name, room in (("Open Room", board.open_room), ("Closed Room", board.closed_room)):
-        if not room:
-            continue
-        room_lines.append(f"- **{name}**: 契約 {room.contract or '確認できず'} / リード {room.lead or '確認できず'} / トリック {room.tricks if room.tricks is not None else '確認できず'} / スコア {room.score if room.score is not None else '確認できず'}")
-    payload = {"board": board.board, "dealer": board.dealer, "vulnerability": board.vulnerability, "pbn": board.pbn, "open_room": _room_dict(board.open_room), "closed_room": _room_dict(board.closed_room), "imp": board.imp, "dds": dds}
-    text = [f"### Board {board.board}", "", "```text", cross_layout(deal, board.board, board.dealer, board.vulnerability), "```", "", *room_lines, "", "#### ダブルダミー解析", "", _dds_table(dds), "", f"- **パー契約／パースコア**: {_par_text(dds)}"]
+        if room:
+            room_lines.append(
+                f"- **{name}**: 契約 {room.contract or '確認できず'} / リード {room.lead or '確認できず'} / "
+                f"トリック {room.tricks if room.tricks is not None else '確認できず'} / "
+                f"スコア {room.score if room.score is not None else '確認できず'}"
+            )
+    payload = {
+        "board": board.board,
+        "dealer": board.dealer,
+        "vulnerability": board.vulnerability,
+        "pbn": board.pbn,
+        "open_room": _room_dict(board.open_room),
+        "closed_room": _room_dict(board.closed_room),
+        "imp": board.imp,
+        "dds": dds,
+    }
+    text = [
+        f"### Board {board.board} — {swing}",
+        "",
+        "```text",
+        cross_layout(deal, board.board, board.dealer, board.vulnerability),
+        "```",
+        "",
+        *room_lines,
+        "",
+        "#### ダブルダミー解析",
+        "",
+        _dds_table(dds),
+        "",
+        f"- **パー契約／パースコア**: {_par_text(dds)}",
+    ]
     if board.open_room:
         text.append(f"- **Open Room比較**: {_comparison(board.open_room, dds)}")
     if board.closed_room:
@@ -71,12 +101,21 @@ def board_markdown(board: BoardResult) -> tuple[str, dict[str, Any]]:
 
 
 def team_markdown(report: TeamReport) -> tuple[str, dict[str, Any]]:
-    m = report.match
+    match = report.match
     lines = [f"## {report.team} — Round {report.round_number}", ""]
-    if m:
-        vp = "確認できず" if m.vp_for is None else f"{m.vp_for:.2f}–{m.vp_against:.2f}"
-        imp = "確認できず" if m.imp_for is None else f"{m.imp_for}–{m.imp_against} IMP"
-        lines += [f"- 対戦相手: **{m.opponent}**", f"- IMP: **{imp}**", f"- VP: **{vp}**", f"- 順位: {report.rank if report.rank is not None else '確認できず'}（前ラウンド: {report.previous_rank if report.previous_rank is not None else '確認できず'}）", f"- 次ラウンド: {report.next_opponent or '確認できず'} / {report.next_start or '開始時刻確認できず'}", f"- Vugraph: {report.vugraph_status}" + (f" — {report.vugraph_url}" if report.vugraph_url else "") , ""]
+    if match:
+        vp = "確認できず" if match.vp_for is None else f"{match.vp_for:.2f}–{match.vp_against:.2f}"
+        imp = "確認できず" if match.imp_for is None else f"{match.imp_for}–{match.imp_against} IMP"
+        rank_label = report.rank_as_of or "取得時点"
+        lines += [
+            f"- 対戦相手: **{match.opponent}**",
+            f"- IMP: **{imp}**",
+            f"- VP: **{vp}**",
+            f"- 順位（{rank_label}）: {report.rank if report.rank is not None else '確認できず'}",
+            f"- 次ラウンド: {report.next_opponent or '確認できず'} / {report.next_start or '開始時刻確認できず'}",
+            f"- Vugraph: {report.vugraph_status}" + (f" — {report.vugraph_url}" if report.vugraph_url else ""),
+            "",
+        ]
     if not report.selected_boards:
         lines.append("注目ボード: 公式ハンドレコードが取得できず。")
     payload_boards = []
@@ -90,7 +129,12 @@ def team_markdown(report: TeamReport) -> tuple[str, dict[str, Any]]:
 
 
 def render_report(reports: list[TeamReport], round_number: int) -> tuple[str, dict[str, Any]]:
-    blocks = [f"# WYOC Japan Tracker — Round {round_number}", "", "生成時点で公式サイトから取得できた情報のみを掲載しています。", ""]
+    blocks = [
+        f"# WYOC Japan Tracker — Round {round_number}",
+        "",
+        "生成時点で公式サイトから取得できた情報のみを掲載しています。順位はラウンド終了時点ではなく、明記した取得時点の公式順位です。",
+        "",
+    ]
     payload: dict[str, Any] = {"round_number": round_number, "teams": []}
     for report in reports:
         block, team_payload = team_markdown(report)

@@ -6,6 +6,8 @@ import argparse
 import json
 import sys
 
+from . import scraper as scraper_module
+from .bbo import configure_scraper
 from .history import apply_history, write_snapshot
 from .models import BoardResult, RoomResult, TeamReport
 from .render import render_report, write_outputs
@@ -55,6 +57,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-cache", action="store_true", help="disable the HTML cache for this run")
     parser.add_argument("--input", help="normalized JSON fixture; skips WBF HTTP retrieval")
     args = parser.parse_args(argv)
+
+    configure_scraper(scraper_module)
 
     try:
         requested = _parse_round(args.round)

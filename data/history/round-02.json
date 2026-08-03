@@ -1,0 +1,41 @@
+{
+  "round_number": 2,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 28,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 24,
+      "rank_change": -4,
+      "opponent": "NT TTAOQI",
+      "imp_for": 22,
+      "imp_against": 26,
+      "vp_for": 8.72,
+      "vp_against": 11.28
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 17,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 8,
+      "rank_change": -9,
+      "opponent": "HELLAS U26",
+      "imp_for": 23,
+      "imp_against": 75,
+      "vp_for": 0.35,
+      "vp_against": 19.65
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 14,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 15,
+      "rank_change": 1,
+      "opponent": "SHANGHAI HRH YELLOW",
+      "imp_for": 47,
+      "imp_against": 28,
+      "vp_for": 15.06,
+      "vp_against": 4.94
+    }
+  ]
+}

@@ -1,0 +1,2705 @@
+{
+  "round_number": 2,
+  "teams": [
+    {
+      "team": "U26 JAPAN",
+      "round_number": 2,
+      "match": {
+        "team": "JAPAN",
+        "opponent": "HELLAS U26",
+        "match_id": "161823",
+        "round_number": 2,
+        "team_position": 1,
+        "vp_for": 0.35,
+        "vp_against": 19.65,
+        "imp_for": 23,
+        "imp_against": 75,
+        "board_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/BoardDetails.asp?qmatchid=161823&qdesktop=0",
+        "boards": [
+          {
+            "board": 15,
+            "dealer": "S",
+            "vulnerability": "N-S",
+            "pbn": "N:JT96.J76.75.JT32 432.AQ52.JT9.Q96 K5.K83.AKQ632.K8 AQ87.T94.84.A754",
+            "open_room": {
+              "contract": "1D S",
+              "declarer": "S",
+              "lead": "H10",
+              "tricks": 8,
+              "score": 90,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "1D S",
+              "declarer": "S",
+              "lead": "D8",
+              "tricks": 8,
+              "score": 90,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 16,
+            "dealer": "W",
+            "vulnerability": "E-W",
+            "pbn": "N:98752.KJT97.J.T3 K3.52.T973.QJ874 AQ6.A4.K852.AK95 JT4.Q863.AQ64.62",
+            "open_room": {
+              "contract": "4S S",
+              "declarer": "S",
+              "lead": "S4",
+              "tricks": 10,
+              "score": 420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "5S S",
+              "declarer": "S",
+              "lead": "S4",
+              "tricks": 10,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -10,
+            "notes": []
+          },
+          {
+            "board": 17,
+            "dealer": "N",
+            "vulnerability": "None",
+            "pbn": "N:AK82.Q.J73.AQ542 975.AK983.Q6.KJ3 T64.J542.KT94.97 QJ3.T76.A852.T86",
+            "open_room": {
+              "contract": "3D S",
+              "declarer": "S",
+              "lead": "DA",
+              "tricks": 8,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "1NT N",
+              "declarer": "N",
+              "lead": "HA",
+              "tricks": 7,
+              "score": 90,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 4,
+            "notes": []
+          },
+          {
+            "board": 18,
+            "dealer": "E",
+            "vulnerability": "N-S",
+            "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+            "open_room": {
+              "contract": "4SX S",
+              "declarer": "S",
+              "lead": "S8",
+              "tricks": 10,
+              "score": 790,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "S6",
+              "tricks": 6,
+              "score": 150,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -12,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+            ]
+          },
+          {
+            "board": 19,
+            "dealer": "S",
+            "vulnerability": "E-W",
+            "pbn": "N:J9654.972.AKQJ.4 8.53.986.AKJT983 T32.AKT86.72.Q76 AKQ7.QJ4.T543.52",
+            "open_room": {
+              "contract": "3H S",
+              "declarer": "S",
+              "lead": "SA",
+              "tricks": 8,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4SX N",
+              "declarer": "N",
+              "lead": "CA",
+              "tricks": 7,
+              "score": -500,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -10,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+            ]
+          },
+          {
+            "board": 20,
+            "dealer": "W",
+            "vulnerability": "All",
+            "pbn": "N:986.K92.AQJT4.A6 7.QT65.652.J9874 QT43.A84.K98.KQ5 AKJ52.J73.73.T32",
+            "open_room": {
+              "contract": "3NT N",
+              "declarer": "N",
+              "lead": "D6",
+              "tricks": 10,
+              "score": 630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "5D N",
+              "declarer": "N",
+              "lead": "S7",
+              "tricks": 10,
+              "score": -100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -12,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+            ]
+          },
+          {
+            "board": 21,
+            "dealer": "N",
+            "vulnerability": "N-S",
+            "pbn": "N:AQT84.J7.AQT532. K9.AKQT4.94.A764 J7532.98653.6.98 6.2.KJ87.KQJT532",
+            "open_room": {
+              "contract": "5SX N",
+              "declarer": "N",
+              "lead": "HK",
+              "tricks": 10,
+              "score": -200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "6SX N",
+              "declarer": "N",
+              "lead": "HA",
+              "tricks": 10,
+              "score": -500,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -7,
+            "notes": []
+          },
+          {
+            "board": 22,
+            "dealer": "E",
+            "vulnerability": "E-W",
+            "pbn": "N:AJ86.A2.KJT3.854 Q.KQT7.987.KJ973 K9732.J53.Q542.T T54.9864.A6.AQ62",
+            "open_room": {
+              "contract": "3S S",
+              "declarer": "S",
+              "lead": "H6",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3H E",
+              "declarer": "E",
+              "lead": "C10",
+              "tricks": 10,
+              "score": -170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -8,
+            "notes": []
+          },
+          {
+            "board": 23,
+            "dealer": "S",
+            "vulnerability": "All",
+            "pbn": "N:J8.QJ9765.K7.J83 AKQ742.T.A64.Q95 63.AK82.QT3.AT74 T95.43.J9852.K62",
+            "open_room": {
+              "contract": "3S E",
+              "declarer": "E",
+              "lead": "HA",
+              "tricks": 9,
+              "score": -140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4H N",
+              "declarer": "N",
+              "lead": "SA",
+              "tricks": 8,
+              "score": -200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -2,
+            "notes": []
+          },
+          {
+            "board": 24,
+            "dealer": "W",
+            "vulnerability": "None",
+            "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+            "open_room": {
+              "contract": "6NT N",
+              "declarer": "N",
+              "lead": "C6",
+              "tricks": 13,
+              "score": 1020,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "6H S",
+              "declarer": "S",
+              "lead": "SA",
+              "tricks": 11,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -14,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+            ]
+          },
+          {
+            "board": 25,
+            "dealer": "N",
+            "vulnerability": "E-W",
+            "pbn": "N:AT3.KT73.J763.T4 J42.A965.AQ954.3 K6.QJ84.T.AQJ952 Q9875.2.K82.K876",
+            "open_room": {
+              "contract": "3D E",
+              "declarer": "E",
+              "lead": "D10",
+              "tricks": 8,
+              "score": 100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3C S",
+              "declarer": "S",
+              "lead": "H2",
+              "tricks": 10,
+              "score": 130,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 1,
+            "notes": []
+          },
+          {
+            "board": 26,
+            "dealer": "E",
+            "vulnerability": "All",
+            "pbn": "N:Q5432.J986.98.95 AJ.KT54.AJT.QJ72 K97.A2.Q6432.T64 T86.Q73.K75.AK83",
+            "open_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "D3",
+              "tricks": 11,
+              "score": -660,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "S7",
+              "tricks": 10,
+              "score": -630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 1,
+            "notes": []
+          },
+          {
+            "board": 27,
+            "dealer": "S",
+            "vulnerability": "None",
+            "pbn": "N:Q82.AT83.JT65.Q8 65.K642.Q3.T7643 KJT743.QJ5.K2.K5 A9.97.A9874.AJ92",
+            "open_room": {
+              "contract": "3S S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 9,
+              "score": 140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4S S",
+              "declarer": "S",
+              "lead": "DA",
+              "tricks": 10,
+              "score": 420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 7,
+            "notes": []
+          },
+          {
+            "board": 28,
+            "dealer": "W",
+            "vulnerability": "N-S",
+            "pbn": "N:QJ.QJ542..KT9873 K632.A.98653.A64 987.KT863.KQT.Q5 AT54.97.AJ742.J2",
+            "open_room": {
+              "contract": "4SX E",
+              "declarer": "E",
+              "lead": "HK",
+              "tricks": 10,
+              "score": -590,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "1NT W",
+              "declarer": "W",
+              "lead": "C9",
+              "tricks": 8,
+              "score": -120,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 10,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+            ]
+          }
+        ]
+      },
+      "rank": 17,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 8,
+      "rank_change": -9,
+      "next_opponent": "CT U26",
+      "next_start": "15:50 JST",
+      "vugraph_status": "日本戦の中継予定なし",
+      "vugraph_url": null,
+      "vugraph_archive_url": null,
+      "selected_boards": [
+        {
+          "board": 24,
+          "dealer": "W",
+          "vulnerability": "None",
+          "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+          "open_room": {
+            "contract": "6NT N",
+            "declarer": "N",
+            "lead": "C6",
+            "tricks": 13,
+            "score": 1020,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "6H S",
+            "declarer": "S",
+            "lead": "SA",
+            "tricks": 11,
+            "score": -50,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -14,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 11,
+                "C": 9
+              },
+              "S": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 10,
+                "C": 9
+              },
+              "E": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              },
+              "W": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              }
+            },
+            "par_score": 990,
+            "par_contracts": [
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "N",
+                "tricks": 12
+              },
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "S",
+                "tricks": 12
+              }
+            ]
+          }
+        },
+        {
+          "board": 18,
+          "dealer": "E",
+          "vulnerability": "N-S",
+          "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+          "open_room": {
+            "contract": "4SX S",
+            "declarer": "S",
+            "lead": "S8",
+            "tricks": 10,
+            "score": 790,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3NT E",
+            "declarer": "E",
+            "lead": "S6",
+            "tricks": 6,
+            "score": 150,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -12,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "S": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "E": {
+                "NT": 5,
+                "S": 3,
+                "H": 7,
+                "D": 9,
+                "C": 9
+              },
+              "W": {
+                "NT": 5,
+                "S": 3,
+                "H": 6,
+                "D": 9,
+                "C": 8
+              }
+            },
+            "par_score": 300,
+            "par_contracts": [
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "E",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "W",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♣",
+                "declarer": "E",
+                "tricks": 11
+              }
+            ]
+          }
+        },
+        {
+          "board": 20,
+          "dealer": "W",
+          "vulnerability": "All",
+          "pbn": "N:986.K92.AQJT4.A6 7.QT65.652.J9874 QT43.A84.K98.KQ5 AKJ52.J73.73.T32",
+          "open_room": {
+            "contract": "3NT N",
+            "declarer": "N",
+            "lead": "D6",
+            "tricks": 10,
+            "score": 630,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "5D N",
+            "declarer": "N",
+            "lead": "S7",
+            "tricks": 10,
+            "score": -100,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -12,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 10,
+                "S": 9,
+                "H": 8,
+                "D": 10,
+                "C": 7
+              },
+              "S": {
+                "NT": 10,
+                "S": 9,
+                "H": 8,
+                "D": 10,
+                "C": 8
+              },
+              "E": {
+                "NT": 3,
+                "S": 4,
+                "H": 5,
+                "D": 3,
+                "C": 5
+              },
+              "W": {
+                "NT": 3,
+                "S": 4,
+                "H": 5,
+                "D": 3,
+                "C": 5
+              }
+            },
+            "par_score": 630,
+            "par_contracts": [
+              {
+                "level": 3,
+                "strain": "NT",
+                "declarer": "N",
+                "tricks": 9
+              },
+              {
+                "level": 3,
+                "strain": "NT",
+                "declarer": "S",
+                "tricks": 9
+              }
+            ]
+          }
+        },
+        {
+          "board": 28,
+          "dealer": "W",
+          "vulnerability": "N-S",
+          "pbn": "N:QJ.QJ542..KT9873 K632.A.98653.A64 987.KT863.KQT.Q5 AT54.97.AJ742.J2",
+          "open_room": {
+            "contract": "4SX E",
+            "declarer": "E",
+            "lead": "HK",
+            "tricks": 10,
+            "score": -590,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "1NT W",
+            "declarer": "W",
+            "lead": "C9",
+            "tricks": 8,
+            "score": -120,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 10,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 3,
+                "S": 2,
+                "H": 9,
+                "D": 2,
+                "C": 8
+              },
+              "S": {
+                "NT": 3,
+                "S": 2,
+                "H": 9,
+                "D": 2,
+                "C": 8
+              },
+              "E": {
+                "NT": 7,
+                "S": 10,
+                "H": 4,
+                "D": 11,
+                "C": 5
+              },
+              "W": {
+                "NT": 7,
+                "S": 11,
+                "H": 4,
+                "D": 11,
+                "C": 5
+              }
+            },
+            "par_score": -450,
+            "par_contracts": [
+              {
+                "level": 4,
+                "strain": "♠",
+                "declarer": "W",
+                "tricks": 10
+              }
+            ]
+          }
+        },
+        {
+          "board": 19,
+          "dealer": "S",
+          "vulnerability": "E-W",
+          "pbn": "N:J9654.972.AKQJ.4 8.53.986.AKJT983 T32.AKT86.72.Q76 AKQ7.QJ4.T543.52",
+          "open_room": {
+            "contract": "3H S",
+            "declarer": "S",
+            "lead": "SA",
+            "tricks": 8,
+            "score": -50,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "4SX N",
+            "declarer": "N",
+            "lead": "CA",
+            "tricks": 7,
+            "score": -500,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -10,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2660&qtournid=2660&qmatchid=161823: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 8,
+                "H": 8,
+                "D": 6,
+                "C": 4
+              },
+              "S": {
+                "NT": 7,
+                "S": 8,
+                "H": 8,
+                "D": 6,
+                "C": 4
+              },
+              "E": {
+                "NT": 6,
+                "S": 5,
+                "H": 4,
+                "D": 6,
+                "C": 7
+              },
+              "W": {
+                "NT": 6,
+                "S": 5,
+                "H": 4,
+                "D": 6,
+                "C": 7
+              }
+            },
+            "par_score": 110,
+            "par_contracts": [
+              {
+                "level": 1,
+                "strain": "♠",
+                "declarer": "N",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♠",
+                "declarer": "S",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♥",
+                "declarer": "N",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♥",
+                "declarer": "S",
+                "tricks": 7
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "U21 JAPAN",
+      "round_number": 2,
+      "match": {
+        "team": "JAPAN",
+        "opponent": "NT TTAOQI",
+        "match_id": "161908",
+        "round_number": 2,
+        "team_position": 0,
+        "vp_for": 8.72,
+        "vp_against": 11.28,
+        "imp_for": 22,
+        "imp_against": 26,
+        "board_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/BoardDetails.asp?qmatchid=161908&qdesktop=0",
+        "boards": [
+          {
+            "board": 15,
+            "dealer": "S",
+            "vulnerability": "N-S",
+            "pbn": "N:JT96.J76.75.JT32 432.AQ52.JT9.Q96 K5.K83.AKQ632.K8 AQ87.T94.84.A754",
+            "open_room": {
+              "contract": "Adj.",
+              "declarer": null,
+              "lead": null,
+              "tricks": null,
+              "score": 90,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3D S",
+              "declarer": "S",
+              "lead": "H10",
+              "tricks": 8,
+              "score": -100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 5,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+            ]
+          },
+          {
+            "board": 16,
+            "dealer": "W",
+            "vulnerability": "E-W",
+            "pbn": "N:98752.KJT97.J.T3 K3.52.T973.QJ874 AQ6.A4.K852.AK95 JT4.Q863.AQ64.62",
+            "open_room": {
+              "contract": "4S S",
+              "declarer": "S",
+              "lead": "SJ",
+              "tricks": 10,
+              "score": 420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4S S",
+              "declarer": "S",
+              "lead": "C6",
+              "tricks": 10,
+              "score": 420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 17,
+            "dealer": "N",
+            "vulnerability": "None",
+            "pbn": "N:AK82.Q.J73.AQ542 975.AK983.Q6.KJ3 T64.J542.KT94.97 QJ3.T76.A852.T86",
+            "open_room": {
+              "contract": "2H E",
+              "declarer": "E",
+              "lead": "D9",
+              "tricks": 10,
+              "score": -170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3D S",
+              "declarer": "S",
+              "lead": "C6",
+              "tricks": 9,
+              "score": 110,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -7,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+            ]
+          },
+          {
+            "board": 18,
+            "dealer": "E",
+            "vulnerability": "N-S",
+            "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+            "open_room": {
+              "contract": "3SX S",
+              "declarer": "S",
+              "lead": "D7",
+              "tricks": 10,
+              "score": 930,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4S S",
+              "declarer": "S",
+              "lead": "H3",
+              "tricks": 10,
+              "score": 620,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 7,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+            ]
+          },
+          {
+            "board": 19,
+            "dealer": "S",
+            "vulnerability": "E-W",
+            "pbn": "N:J9654.972.AKQJ.4 8.53.986.AKJT983 T32.AKT86.72.Q76 AKQ7.QJ4.T543.52",
+            "open_room": {
+              "contract": "3NT W",
+              "declarer": "W",
+              "lead": "DA",
+              "tricks": 6,
+              "score": 300,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3C E",
+              "declarer": "E",
+              "lead": "HA",
+              "tricks": 7,
+              "score": 200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 3,
+            "notes": []
+          },
+          {
+            "board": 20,
+            "dealer": "W",
+            "vulnerability": "All",
+            "pbn": "N:986.K92.AQJT4.A6 7.QT65.652.J9874 QT43.A84.K98.KQ5 AKJ52.J73.73.T32",
+            "open_room": {
+              "contract": "3NT N",
+              "declarer": "N",
+              "lead": "C7",
+              "tricks": 10,
+              "score": 630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT N",
+              "declarer": "N",
+              "lead": "H5",
+              "tricks": 10,
+              "score": 630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 21,
+            "dealer": "N",
+            "vulnerability": "N-S",
+            "pbn": "N:AQT84.J7.AQT532. K9.AKQT4.94.A764 J7532.98653.6.98 6.2.KJ87.KQJT532",
+            "open_room": {
+              "contract": "5SX N",
+              "declarer": "N",
+              "lead": "HA",
+              "tricks": 10,
+              "score": -200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "5SX N",
+              "declarer": "N",
+              "lead": "HA",
+              "tricks": 10,
+              "score": -200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 22,
+            "dealer": "E",
+            "vulnerability": "E-W",
+            "pbn": "N:AJ86.A2.KJT3.854 Q.KQT7.987.KJ973 K9732.J53.Q542.T T54.9864.A6.AQ62",
+            "open_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "DA",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "5H W",
+              "declarer": "W",
+              "lead": "SA",
+              "tricks": 10,
+              "score": 100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 2,
+            "notes": []
+          },
+          {
+            "board": 23,
+            "dealer": "S",
+            "vulnerability": "All",
+            "pbn": "N:J8.QJ9765.K7.J83 AKQ742.T.A64.Q95 63.AK82.QT3.AT74 T95.43.J9852.K62",
+            "open_room": {
+              "contract": "4SX E",
+              "declarer": "E",
+              "lead": "HA",
+              "tricks": 9,
+              "score": 200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4S E",
+              "declarer": "E",
+              "lead": "HA",
+              "tricks": 9,
+              "score": 100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 3,
+            "notes": []
+          },
+          {
+            "board": 24,
+            "dealer": "W",
+            "vulnerability": "None",
+            "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+            "open_room": {
+              "contract": "6H S",
+              "declarer": "S",
+              "lead": "SA",
+              "tricks": 11,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "5H S",
+              "declarer": "S",
+              "lead": "SA",
+              "tricks": 11,
+              "score": 450,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -11,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+            ]
+          },
+          {
+            "board": 25,
+            "dealer": "N",
+            "vulnerability": "E-W",
+            "pbn": "N:AT3.KT73.J763.T4 J42.A965.AQ954.3 K6.QJ84.T.AQJ952 Q9875.2.K82.K876",
+            "open_room": {
+              "contract": "4H S",
+              "declarer": "S",
+              "lead": "D2",
+              "tricks": 8,
+              "score": -100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3D E",
+              "declarer": "E",
+              "lead": "D10",
+              "tricks": 9,
+              "score": -110,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 26,
+            "dealer": "E",
+            "vulnerability": "All",
+            "pbn": "N:Q5432.J986.98.95 AJ.KT54.AJT.QJ72 K97.A2.Q6432.T64 T86.Q73.K75.AK83",
+            "open_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "S7",
+              "tricks": 11,
+              "score": -660,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "D3",
+              "tricks": 10,
+              "score": -630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -1,
+            "notes": []
+          },
+          {
+            "board": 27,
+            "dealer": "S",
+            "vulnerability": "None",
+            "pbn": "N:Q82.AT83.JT65.Q8 65.K642.Q3.T7643 KJT743.QJ5.K2.K5 A9.97.A9874.AJ92",
+            "open_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4C E",
+              "declarer": "E",
+              "lead": "HQ",
+              "tricks": 8,
+              "score": 100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 2,
+            "notes": []
+          },
+          {
+            "board": 28,
+            "dealer": "W",
+            "vulnerability": "N-S",
+            "pbn": "N:QJ.QJ542..KT9873 K632.A.98653.A64 987.KT863.KQT.Q5 AT54.97.AJ742.J2",
+            "open_room": {
+              "contract": "4S E",
+              "declarer": "E",
+              "lead": "S8",
+              "tricks": 10,
+              "score": -420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3D W",
+              "declarer": "W",
+              "lead": "SQ",
+              "tricks": 10,
+              "score": -130,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -7,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+            ]
+          }
+        ]
+      },
+      "rank": 28,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 24,
+      "rank_change": -4,
+      "next_opponent": "CHANGNING CONTRACT",
+      "next_start": "15:50 JST",
+      "vugraph_status": "日本戦の中継予定なし",
+      "vugraph_url": null,
+      "vugraph_archive_url": null,
+      "selected_boards": [
+        {
+          "board": 24,
+          "dealer": "W",
+          "vulnerability": "None",
+          "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+          "open_room": {
+            "contract": "6H S",
+            "declarer": "S",
+            "lead": "SA",
+            "tricks": 11,
+            "score": -50,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "5H S",
+            "declarer": "S",
+            "lead": "SA",
+            "tricks": 11,
+            "score": 450,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -11,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 11,
+                "C": 9
+              },
+              "S": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 10,
+                "C": 9
+              },
+              "E": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              },
+              "W": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              }
+            },
+            "par_score": 990,
+            "par_contracts": [
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "N",
+                "tricks": 12
+              },
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "S",
+                "tricks": 12
+              }
+            ]
+          }
+        },
+        {
+          "board": 18,
+          "dealer": "E",
+          "vulnerability": "N-S",
+          "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+          "open_room": {
+            "contract": "3SX S",
+            "declarer": "S",
+            "lead": "D7",
+            "tricks": 10,
+            "score": 930,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "4S S",
+            "declarer": "S",
+            "lead": "H3",
+            "tricks": 10,
+            "score": 620,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 7,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "S": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "E": {
+                "NT": 5,
+                "S": 3,
+                "H": 7,
+                "D": 9,
+                "C": 9
+              },
+              "W": {
+                "NT": 5,
+                "S": 3,
+                "H": 6,
+                "D": 9,
+                "C": 8
+              }
+            },
+            "par_score": 300,
+            "par_contracts": [
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "E",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "W",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♣",
+                "declarer": "E",
+                "tricks": 11
+              }
+            ]
+          }
+        },
+        {
+          "board": 17,
+          "dealer": "N",
+          "vulnerability": "None",
+          "pbn": "N:AK82.Q.J73.AQ542 975.AK983.Q6.KJ3 T64.J542.KT94.97 QJ3.T76.A852.T86",
+          "open_room": {
+            "contract": "2H E",
+            "declarer": "E",
+            "lead": "D9",
+            "tricks": 10,
+            "score": -170,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3D S",
+            "declarer": "S",
+            "lead": "C6",
+            "tricks": 9,
+            "score": 110,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -7,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 6,
+                "S": 8,
+                "H": 6,
+                "D": 8,
+                "C": 8
+              },
+              "S": {
+                "NT": 6,
+                "S": 8,
+                "H": 6,
+                "D": 8,
+                "C": 8
+              },
+              "E": {
+                "NT": 6,
+                "S": 5,
+                "H": 7,
+                "D": 5,
+                "C": 5
+              },
+              "W": {
+                "NT": 6,
+                "S": 5,
+                "H": 7,
+                "D": 5,
+                "C": 5
+              }
+            },
+            "par_score": 110,
+            "par_contracts": [
+              {
+                "level": 2,
+                "strain": "♠",
+                "declarer": "N",
+                "tricks": 8
+              },
+              {
+                "level": 2,
+                "strain": "♠",
+                "declarer": "S",
+                "tricks": 8
+              }
+            ]
+          }
+        },
+        {
+          "board": 28,
+          "dealer": "W",
+          "vulnerability": "N-S",
+          "pbn": "N:QJ.QJ542..KT9873 K632.A.98653.A64 987.KT863.KQT.Q5 AT54.97.AJ742.J2",
+          "open_room": {
+            "contract": "4S E",
+            "declarer": "E",
+            "lead": "S8",
+            "tricks": 10,
+            "score": -420,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3D W",
+            "declarer": "W",
+            "lead": "SQ",
+            "tricks": 10,
+            "score": -130,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -7,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 3,
+                "S": 2,
+                "H": 9,
+                "D": 2,
+                "C": 8
+              },
+              "S": {
+                "NT": 3,
+                "S": 2,
+                "H": 9,
+                "D": 2,
+                "C": 8
+              },
+              "E": {
+                "NT": 7,
+                "S": 10,
+                "H": 4,
+                "D": 11,
+                "C": 5
+              },
+              "W": {
+                "NT": 7,
+                "S": 11,
+                "H": 4,
+                "D": 11,
+                "C": 5
+              }
+            },
+            "par_score": -450,
+            "par_contracts": [
+              {
+                "level": 4,
+                "strain": "♠",
+                "declarer": "W",
+                "tricks": 10
+              }
+            ]
+          }
+        },
+        {
+          "board": 15,
+          "dealer": "S",
+          "vulnerability": "N-S",
+          "pbn": "N:JT96.J76.75.JT32 432.AQ52.JT9.Q96 K5.K83.AKQ632.K8 AQ87.T94.84.A754",
+          "open_room": {
+            "contract": "Adj.",
+            "declarer": null,
+            "lead": null,
+            "tricks": null,
+            "score": 90,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3D S",
+            "declarer": "S",
+            "lead": "H10",
+            "tricks": 8,
+            "score": -100,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 5,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2661&qtournid=2661&qmatchid=161908: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 6,
+                "H": 6,
+                "D": 7,
+                "C": 6
+              },
+              "S": {
+                "NT": 7,
+                "S": 6,
+                "H": 6,
+                "D": 7,
+                "C": 6
+              },
+              "E": {
+                "NT": 6,
+                "S": 7,
+                "H": 7,
+                "D": 6,
+                "C": 7
+              },
+              "W": {
+                "NT": 6,
+                "S": 6,
+                "H": 7,
+                "D": 5,
+                "C": 7
+              }
+            },
+            "par_score": 90,
+            "par_contracts": [
+              {
+                "level": 1,
+                "strain": "NT",
+                "declarer": "N",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "NT",
+                "declarer": "S",
+                "tricks": 7
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "round_number": 2,
+      "match": {
+        "team": "JAPAN",
+        "opponent": "SHANGHAI HRH YELLOW",
+        "match_id": "161896",
+        "round_number": 2,
+        "team_position": 0,
+        "vp_for": 15.06,
+        "vp_against": 4.94,
+        "imp_for": 47,
+        "imp_against": 28,
+        "board_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/BoardDetails.asp?qmatchid=161896&qdesktop=0",
+        "boards": [
+          {
+            "board": 15,
+            "dealer": "S",
+            "vulnerability": "N-S",
+            "pbn": "N:JT96.J76.75.JT32 432.AQ52.JT9.Q96 K5.K83.AKQ632.K8 AQ87.T94.84.A754",
+            "open_room": {
+              "contract": "1D S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 10,
+              "score": 130,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "2S W",
+              "declarer": "W",
+              "lead": "D7",
+              "tricks": 7,
+              "score": 50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=015.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 2,
+            "notes": []
+          },
+          {
+            "board": 16,
+            "dealer": "W",
+            "vulnerability": "E-W",
+            "pbn": "N:98752.KJT97.J.T3 K3.52.T973.QJ874 AQ6.A4.K852.AK95 JT4.Q863.AQ64.62",
+            "open_room": {
+              "contract": "3NT S",
+              "declarer": "S",
+              "lead": "C6",
+              "tricks": 9,
+              "score": 400,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4S N",
+              "declarer": "N",
+              "lead": "CQ",
+              "tricks": 10,
+              "score": 420,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=016.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -1,
+            "notes": []
+          },
+          {
+            "board": 17,
+            "dealer": "N",
+            "vulnerability": "None",
+            "pbn": "N:AK82.Q.J73.AQ542 975.AK983.Q6.KJ3 T64.J542.KT94.97 QJ3.T76.A852.T86",
+            "open_room": {
+              "contract": "1S S",
+              "declarer": "S",
+              "lead": "H7",
+              "tricks": 8,
+              "score": 110,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "2H E",
+              "declarer": "E",
+              "lead": "C9",
+              "tricks": 7,
+              "score": 50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=017.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 2,
+            "notes": []
+          },
+          {
+            "board": 18,
+            "dealer": "E",
+            "vulnerability": "N-S",
+            "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+            "open_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "H3",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4SX S",
+              "declarer": "S",
+              "lead": "CA",
+              "tricks": 10,
+              "score": 790,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -12,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+            ]
+          },
+          {
+            "board": 19,
+            "dealer": "S",
+            "vulnerability": "E-W",
+            "pbn": "N:J9654.972.AKQJ.4 8.53.986.AKJT983 T32.AKT86.72.Q76 AKQ7.QJ4.T543.52",
+            "open_room": {
+              "contract": "2S N",
+              "declarer": "N",
+              "lead": "CA",
+              "tricks": 9,
+              "score": 140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT W",
+              "declarer": "W",
+              "lead": "S5",
+              "tricks": 9,
+              "score": -600,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 12,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+            ]
+          },
+          {
+            "board": 20,
+            "dealer": "W",
+            "vulnerability": "All",
+            "pbn": "N:986.K92.AQJT4.A6 7.QT65.652.J9874 QT43.A84.K98.KQ5 AKJ52.J73.73.T32",
+            "open_room": {
+              "contract": "3NT N",
+              "declarer": "N",
+              "lead": "C7",
+              "tricks": 10,
+              "score": 630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT N",
+              "declarer": "N",
+              "lead": "H5",
+              "tricks": 10,
+              "score": 630,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=020.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 21,
+            "dealer": "N",
+            "vulnerability": "N-S",
+            "pbn": "N:AQT84.J7.AQT532. K9.AKQT4.94.A764 J7532.98653.6.98 6.2.KJ87.KQJT532",
+            "open_room": {
+              "contract": "5SX N",
+              "declarer": "N",
+              "lead": "HA",
+              "tricks": 10,
+              "score": -200,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "S3",
+              "tricks": 12,
+              "score": -490,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=021.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 7,
+            "notes": []
+          },
+          {
+            "board": 22,
+            "dealer": "E",
+            "vulnerability": "E-W",
+            "pbn": "N:AJ86.A2.KJT3.854 Q.KQT7.987.KJ973 K9732.J53.Q542.T T54.9864.A6.AQ62",
+            "open_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "H8",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "H6",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=022.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 23,
+            "dealer": "S",
+            "vulnerability": "All",
+            "pbn": "N:J8.QJ9765.K7.J83 AKQ742.T.A64.Q95 63.AK82.QT3.AT74 T95.43.J9852.K62",
+            "open_room": {
+              "contract": "3H N",
+              "declarer": "N",
+              "lead": "SA",
+              "tricks": 9,
+              "score": 140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4H N",
+              "declarer": "N",
+              "lead": "SA",
+              "tricks": 7,
+              "score": -300,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 10,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+            ]
+          },
+          {
+            "board": 24,
+            "dealer": "W",
+            "vulnerability": "None",
+            "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+            "open_room": {
+              "contract": "6H S",
+              "declarer": "S",
+              "lead": "D8",
+              "tricks": 11,
+              "score": -50,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "4H S",
+              "declarer": "S",
+              "lead": "SA",
+              "tricks": 11,
+              "score": 450,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -11,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+            ]
+          },
+          {
+            "board": 25,
+            "dealer": "N",
+            "vulnerability": "E-W",
+            "pbn": "N:AT3.KT73.J763.T4 J42.A965.AQ954.3 K6.QJ84.T.AQJ952 Q9875.2.K82.K876",
+            "open_room": {
+              "contract": "3H S",
+              "declarer": "S",
+              "lead": "S5",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "2H N",
+              "declarer": "N",
+              "lead": "C3",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=025.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": null,
+            "notes": []
+          },
+          {
+            "board": 26,
+            "dealer": "E",
+            "vulnerability": "All",
+            "pbn": "N:Q5432.J986.98.95 AJ.KT54.AJT.QJ72 K97.A2.Q6432.T64 T86.Q73.K75.AK83",
+            "open_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "S7",
+              "tricks": 8,
+              "score": 100,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3NT E",
+              "declarer": "E",
+              "lead": "D3",
+              "tricks": 11,
+              "score": -660,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 13,
+            "notes": [
+              "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+            ]
+          },
+          {
+            "board": 27,
+            "dealer": "S",
+            "vulnerability": "None",
+            "pbn": "N:Q82.AT83.JT65.Q8 65.K642.Q3.T7643 KJT743.QJ5.K2.K5 A9.97.A9874.AJ92",
+            "open_room": {
+              "contract": "2S S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 10,
+              "score": 170,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3S S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 9,
+              "score": 140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=027.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": 1,
+            "notes": []
+          },
+          {
+            "board": 28,
+            "dealer": "W",
+            "vulnerability": "N-S",
+            "pbn": "N:QJ.QJ542..KT9873 K632.A.98653.A64 987.KT863.KQT.Q5 AT54.97.AJ742.J2",
+            "open_room": {
+              "contract": "Pass N",
+              "declarer": "N",
+              "lead": null,
+              "tricks": null,
+              "score": 0,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "closed_room": {
+              "contract": "3H S",
+              "declarer": "S",
+              "lead": "H9",
+              "tricks": 9,
+              "score": 140,
+              "auction_url": null,
+              "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=028.02..2662&qtournid=2662&qmatchid=161896",
+              "auction": [],
+              "play": [],
+              "record_status": null
+            },
+            "imp": -4,
+            "notes": []
+          }
+        ]
+      },
+      "rank": 14,
+      "rank_as_of": "公式順位ページ・Round 2取得時点",
+      "previous_rank": 15,
+      "rank_change": 1,
+      "next_opponent": "CHANGNING SHANGHAI",
+      "next_start": "15:50 JST",
+      "vugraph_status": "日本戦の中継予定なし",
+      "vugraph_url": null,
+      "vugraph_archive_url": null,
+      "selected_boards": [
+        {
+          "board": 26,
+          "dealer": "E",
+          "vulnerability": "All",
+          "pbn": "N:Q5432.J986.98.95 AJ.KT54.AJT.QJ72 K97.A2.Q6432.T64 T86.Q73.K75.AK83",
+          "open_room": {
+            "contract": "3NT E",
+            "declarer": "E",
+            "lead": "S7",
+            "tricks": 8,
+            "score": 100,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3NT E",
+            "declarer": "E",
+            "lead": "D3",
+            "tricks": 11,
+            "score": -660,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 13,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=026.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 2,
+                "S": 5,
+                "H": 2,
+                "D": 3,
+                "C": 2
+              },
+              "S": {
+                "NT": 2,
+                "S": 5,
+                "H": 2,
+                "D": 4,
+                "C": 2
+              },
+              "E": {
+                "NT": 11,
+                "S": 8,
+                "H": 11,
+                "D": 9,
+                "C": 11
+              },
+              "W": {
+                "NT": 8,
+                "S": 8,
+                "H": 10,
+                "D": 9,
+                "C": 11
+              }
+            },
+            "par_score": -660,
+            "par_contracts": [
+              {
+                "level": 3,
+                "strain": "NT",
+                "declarer": "E",
+                "tricks": 9
+              }
+            ]
+          }
+        },
+        {
+          "board": 18,
+          "dealer": "E",
+          "vulnerability": "N-S",
+          "pbn": "N:JT9.A74.98632.K7 Q5.KT.AQT54.J654 AK76432.J865..T2 8.Q932.KJ7.AQ983",
+          "open_room": {
+            "contract": "2S S",
+            "declarer": "S",
+            "lead": "H3",
+            "tricks": 10,
+            "score": 170,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "4SX S",
+            "declarer": "S",
+            "lead": "CA",
+            "tricks": 10,
+            "score": 790,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -12,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=018.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "S": {
+                "NT": 7,
+                "S": 10,
+                "H": 6,
+                "D": 3,
+                "C": 3
+              },
+              "E": {
+                "NT": 5,
+                "S": 3,
+                "H": 7,
+                "D": 9,
+                "C": 9
+              },
+              "W": {
+                "NT": 5,
+                "S": 3,
+                "H": 6,
+                "D": 9,
+                "C": 8
+              }
+            },
+            "par_score": 300,
+            "par_contracts": [
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "E",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♦",
+                "declarer": "W",
+                "tricks": 11
+              },
+              {
+                "level": 5,
+                "strain": "♣",
+                "declarer": "E",
+                "tricks": 11
+              }
+            ]
+          }
+        },
+        {
+          "board": 19,
+          "dealer": "S",
+          "vulnerability": "E-W",
+          "pbn": "N:J9654.972.AKQJ.4 8.53.986.AKJT983 T32.AKT86.72.Q76 AKQ7.QJ4.T543.52",
+          "open_room": {
+            "contract": "2S N",
+            "declarer": "N",
+            "lead": "CA",
+            "tricks": 9,
+            "score": 140,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "3NT W",
+            "declarer": "W",
+            "lead": "S5",
+            "tricks": 9,
+            "score": -600,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 12,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=019.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 7,
+                "S": 8,
+                "H": 8,
+                "D": 6,
+                "C": 4
+              },
+              "S": {
+                "NT": 7,
+                "S": 8,
+                "H": 8,
+                "D": 6,
+                "C": 4
+              },
+              "E": {
+                "NT": 6,
+                "S": 5,
+                "H": 4,
+                "D": 6,
+                "C": 7
+              },
+              "W": {
+                "NT": 6,
+                "S": 5,
+                "H": 4,
+                "D": 6,
+                "C": 7
+              }
+            },
+            "par_score": 110,
+            "par_contracts": [
+              {
+                "level": 1,
+                "strain": "♠",
+                "declarer": "N",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♠",
+                "declarer": "S",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♥",
+                "declarer": "N",
+                "tricks": 7
+              },
+              {
+                "level": 1,
+                "strain": "♥",
+                "declarer": "S",
+                "tricks": 7
+              }
+            ]
+          }
+        },
+        {
+          "board": 24,
+          "dealer": "W",
+          "vulnerability": "None",
+          "pbn": "N:Q4.AK5.AQJ76.QJ5 J98752..9543.632 K3.QJ832.KT2.AK4 AT6.T9764.8.T987",
+          "open_room": {
+            "contract": "6H S",
+            "declarer": "S",
+            "lead": "D8",
+            "tricks": 11,
+            "score": -50,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "4H S",
+            "declarer": "S",
+            "lead": "SA",
+            "tricks": 11,
+            "score": 450,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": -11,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=024.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 11,
+                "C": 9
+              },
+              "S": {
+                "NT": 12,
+                "S": 6,
+                "H": 11,
+                "D": 10,
+                "C": 9
+              },
+              "E": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              },
+              "W": {
+                "NT": 0,
+                "S": 6,
+                "H": 2,
+                "D": 0,
+                "C": 2
+              }
+            },
+            "par_score": 990,
+            "par_contracts": [
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "N",
+                "tricks": 12
+              },
+              {
+                "level": 6,
+                "strain": "NT",
+                "declarer": "S",
+                "tricks": 12
+              }
+            ]
+          }
+        },
+        {
+          "board": 23,
+          "dealer": "S",
+          "vulnerability": "All",
+          "pbn": "N:J8.QJ9765.K7.J83 AKQ742.T.A64.Q95 63.AK82.QT3.AT74 T95.43.J9852.K62",
+          "open_room": {
+            "contract": "3H N",
+            "declarer": "N",
+            "lead": "SA",
+            "tricks": 9,
+            "score": 140,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "closed_room": {
+            "contract": "4H N",
+            "declarer": "N",
+            "lead": "SA",
+            "tricks": 7,
+            "score": -300,
+            "auction_url": null,
+            "play_url": "https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896",
+            "auction": [],
+            "play": [],
+            "record_status": null
+          },
+          "imp": 10,
+          "notes": [
+            "GET https://db.worldbridge.org/Repository/tourn/hefei.26/microsite/Asp/PlayDetails.asp?qboard=023.02..2662&qtournid=2662&qmatchid=161896: HTTP 500"
+          ],
+          "dds": {
+            "tricks": {
+              "N": {
+                "NT": 6,
+                "S": 4,
+                "H": 9,
+                "D": 5,
+                "C": 8
+              },
+              "S": {
+                "NT": 6,
+                "S": 4,
+                "H": 9,
+                "D": 4,
+                "C": 8
+              },
+              "E": {
+                "NT": 6,
+                "S": 9,
+                "H": 4,
+                "D": 8,
+                "C": 5
+              },
+              "W": {
+                "NT": 6,
+                "S": 9,
+                "H": 4,
+                "D": 8,
+                "C": 4
+              }
+            },
+            "par_score": -140,
+            "par_contracts": [
+              {
+                "level": 3,
+                "strain": "♠",
+                "declarer": "E",
+                "tricks": 9
+              },
+              {
+                "level": 3,
+                "strain": "♠",
+                "declarer": "W",
+                "tricks": 9
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

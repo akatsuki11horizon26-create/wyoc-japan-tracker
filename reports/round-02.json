@@ -565,6 +565,154 @@
                 "tricks": 12
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "6NT N",
+              "level": 6,
+              "strain": "NT",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "C6",
+              "actual_lead_result": {
+                "card": "C6",
+                "declarer_tricks": 13,
+                "target_tricks": 12,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "J98752",
+                  "card": "S7",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 12,
+                  "target_tricks": 12,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "",
+                  "card": null,
+                  "rule": "void",
+                  "declarer_tricks": null,
+                  "target_tricks": 12,
+                  "delta": null,
+                  "makeable": null,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "9543",
+                  "card": "D9",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "9543",
+                  "card": "D5",
+                  "rule": "second_best",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "632",
+                  "card": "C6",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "C",
+                  "holding": "632",
+                  "card": "C3",
+                  "rule": "second_best",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "6H S",
+              "level": 6,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 11,
+                "target_tricks": 12,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AT6",
+                  "card": "S6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T9764",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "8",
+                  "card": "D8",
+                  "rule": "singleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T987",
+                  "card": "C8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -652,6 +800,132 @@
                 "tricks": 11
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "4SX S",
+              "level": 4,
+              "strain": "S",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "S8",
+              "actual_lead_result": {
+                "card": "S8",
+                "declarer_tricks": 10,
+                "target_tricks": 10,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "Q932",
+                  "card": "H3",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KJ7",
+                  "card": "D7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AQ983",
+                  "card": "C3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "3NT E",
+              "level": 3,
+              "strain": "NT",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "S6",
+              "actual_lead_result": {
+                "card": "S6",
+                "declarer_tricks": 7,
+                "target_tricks": 9,
+                "delta": -2,
+                "makeable": false,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AK76432",
+                  "card": "SA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 7,
+                  "target_tricks": 9,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "J865",
+                  "card": "H5",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 5,
+                  "target_tricks": 9,
+                  "delta": -4,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "",
+                  "card": null,
+                  "rule": "void",
+                  "declarer_tricks": null,
+                  "target_tricks": 9,
+                  "delta": null,
+                  "makeable": null,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T2",
+                  "card": "CT",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -733,6 +1007,143 @@
                 "tricks": 9
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "3NT N",
+              "level": 3,
+              "strain": "NT",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "D6",
+              "actual_lead_result": {
+                "card": "D6",
+                "declarer_tricks": 10,
+                "target_tricks": 9,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "7",
+                  "card": "S7",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "QT65",
+                  "card": "H5",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "652",
+                  "card": "D6",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "D",
+                  "holding": "652",
+                  "card": "D5",
+                  "rule": "second_best",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "J9874",
+                  "card": "C7",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "5D N",
+              "level": 5,
+              "strain": "D",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "S7",
+              "actual_lead_result": {
+                "card": "S7",
+                "declarer_tricks": 10,
+                "target_tricks": 11,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "7",
+                  "card": "S7",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 11,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "QT65",
+                  "card": "H6",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 11,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "652",
+                  "card": "D2",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 11,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "J9874",
+                  "card": "C4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 11,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -808,6 +1219,132 @@
                 "tricks": 10
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "4SX E",
+              "level": 4,
+              "strain": "S",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "HK",
+              "actual_lead_result": {
+                "card": "HK",
+                "declarer_tricks": 11,
+                "target_tricks": 10,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "987",
+                  "card": "S7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "KT863",
+                  "card": "H3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KQT",
+                  "card": "DK",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "Q5",
+                  "card": "CQ",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "1NT W",
+              "level": 1,
+              "strain": "NT",
+              "declarer": "W",
+              "leader": "N",
+              "actual_lead": "C9",
+              "actual_lead_result": {
+                "card": "C9",
+                "declarer_tricks": 7,
+                "target_tricks": 7,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "QJ",
+                  "card": "SQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 10,
+                  "target_tricks": 7,
+                  "delta": 3,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "QJ542",
+                  "card": "HQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 8,
+                  "target_tricks": 7,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "",
+                  "card": null,
+                  "rule": "void",
+                  "declarer_tricks": null,
+                  "target_tricks": 7,
+                  "delta": null,
+                  "makeable": null,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "KT9873",
+                  "card": "C8",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 7,
+                  "target_tricks": 7,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -901,6 +1438,132 @@
                 "tricks": 7
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "3H S",
+              "level": 3,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 8,
+                "target_tricks": 9,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AKQ7",
+                  "card": "SA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "QJ4",
+                  "card": "HQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "T543",
+                  "card": "D4",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "52",
+                  "card": "C5",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "4SX N",
+              "level": 4,
+              "strain": "S",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "CA",
+              "actual_lead_result": {
+                "card": "CA",
+                "declarer_tricks": 8,
+                "target_tricks": 10,
+                "delta": -2,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 8,
+                  "target_tricks": 10,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "53",
+                  "card": "H5",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 8,
+                  "target_tricks": 10,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "986",
+                  "card": "D6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 8,
+                  "target_tricks": 10,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AKJT983",
+                  "card": "CA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 8,
+                  "target_tricks": 10,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": true
+                }
+              ]
+            }
           }
         }
       ]
@@ -1469,6 +2132,132 @@
                 "tricks": 12
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "6H S",
+              "level": 6,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 11,
+                "target_tricks": 12,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AT6",
+                  "card": "S6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T9764",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "8",
+                  "card": "D8",
+                  "rule": "singleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T987",
+                  "card": "C8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "5H S",
+              "level": 5,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 11,
+                "target_tricks": 11,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AT6",
+                  "card": "S6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 11,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T9764",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 13,
+                  "target_tricks": 11,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "8",
+                  "card": "D8",
+                  "rule": "singleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 11,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T987",
+                  "card": "C8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 11,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -1556,6 +2345,132 @@
                 "tricks": 11
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "3SX S",
+              "level": 3,
+              "strain": "S",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "D7",
+              "actual_lead_result": {
+                "card": "D7",
+                "declarer_tricks": 10,
+                "target_tricks": 9,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "Q932",
+                  "card": "H3",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KJ7",
+                  "card": "D7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "C",
+                  "holding": "AQ983",
+                  "card": "C3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 9,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "4S S",
+              "level": 4,
+              "strain": "S",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "H3",
+              "actual_lead_result": {
+                "card": "H3",
+                "declarer_tricks": 10,
+                "target_tricks": 10,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "Q932",
+                  "card": "H3",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "D",
+                  "holding": "KJ7",
+                  "card": "D7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AQ983",
+                  "card": "C3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -1637,6 +2552,132 @@
                 "tricks": 8
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "2H E",
+              "level": 2,
+              "strain": "H",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "D9",
+              "actual_lead_result": {
+                "card": "D9",
+                "declarer_tricks": 8,
+                "target_tricks": 8,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "T64",
+                  "card": "S4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 7,
+                  "target_tricks": 8,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "J542",
+                  "card": "H4",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 7,
+                  "target_tricks": 8,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KT94",
+                  "card": "D9",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 8,
+                  "target_tricks": 8,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "C",
+                  "holding": "97",
+                  "card": "C9",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 7,
+                  "target_tricks": 8,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "3D S",
+              "level": 3,
+              "strain": "D",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "C6",
+              "actual_lead_result": {
+                "card": "C6",
+                "declarer_tricks": 8,
+                "target_tricks": 9,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "QJ3",
+                  "card": "SQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T76",
+                  "card": "H6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "A852",
+                  "card": "D5",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T86",
+                  "card": "C6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": true
+                }
+              ]
+            }
           }
         },
         {
@@ -1712,6 +2753,132 @@
                 "tricks": 10
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "4S E",
+              "level": 4,
+              "strain": "S",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "S8",
+              "actual_lead_result": {
+                "card": "S8",
+                "declarer_tricks": 11,
+                "target_tricks": 10,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "987",
+                  "card": "S7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "KT863",
+                  "card": "H3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KQT",
+                  "card": "DK",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "Q5",
+                  "card": "CQ",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "3D W",
+              "level": 3,
+              "strain": "D",
+              "declarer": "W",
+              "leader": "N",
+              "actual_lead": "SQ",
+              "actual_lead_result": {
+                "card": "SQ",
+                "declarer_tricks": 11,
+                "target_tricks": 9,
+                "delta": 2,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "QJ",
+                  "card": "SQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "QJ542",
+                  "card": "HQ",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "",
+                  "card": null,
+                  "rule": "void",
+                  "declarer_tricks": null,
+                  "target_tricks": 9,
+                  "delta": null,
+                  "makeable": null,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "KT9873",
+                  "card": "C9",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -1793,6 +2960,70 @@
                 "tricks": 7
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Closed Room": {
+              "contract": "3D S",
+              "level": 3,
+              "strain": "D",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "HT",
+              "actual_lead_result": {
+                "card": "HT",
+                "declarer_tricks": 7,
+                "target_tricks": 9,
+                "delta": -2,
+                "makeable": false,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AQ87",
+                  "card": "S8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T94",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "84",
+                  "card": "D8",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 7,
+                  "target_tricks": 9,
+                  "delta": -2,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "A754",
+                  "card": "C5",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 8,
+                  "target_tricks": 9,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         }
       ]
@@ -2355,6 +3586,132 @@
                 "tricks": 9
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "3NT E",
+              "level": 3,
+              "strain": "NT",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "S7",
+              "actual_lead_result": {
+                "card": "S7",
+                "declarer_tricks": 11,
+                "target_tricks": 9,
+                "delta": 2,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "K97",
+                  "card": "S7",
+                  "rule": "lowest_from_three",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "A2",
+                  "card": "HA",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "Q6432",
+                  "card": "D3",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T64",
+                  "card": "C4",
+                  "rule": "lowest_from_three",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "3NT E",
+              "level": 3,
+              "strain": "NT",
+              "declarer": "E",
+              "leader": "S",
+              "actual_lead": "D3",
+              "actual_lead_result": {
+                "card": "D3",
+                "declarer_tricks": 11,
+                "target_tricks": 9,
+                "delta": 2,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "K97",
+                  "card": "S7",
+                  "rule": "lowest_from_three",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "A2",
+                  "card": "HA",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "Q6432",
+                  "card": "D3",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "C",
+                  "holding": "T64",
+                  "card": "C4",
+                  "rule": "lowest_from_three",
+                  "declarer_tricks": 11,
+                  "target_tricks": 9,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -2442,6 +3799,132 @@
                 "tricks": 11
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "2S S",
+              "level": 2,
+              "strain": "S",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "H3",
+              "actual_lead_result": {
+                "card": "H3",
+                "declarer_tricks": 10,
+                "target_tricks": 8,
+                "delta": 2,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 8,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "Q932",
+                  "card": "H3",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 8,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "D",
+                  "holding": "KJ7",
+                  "card": "D7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 8,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AQ983",
+                  "card": "C3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 8,
+                  "delta": 2,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "4SX S",
+              "level": 4,
+              "strain": "S",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "CA",
+              "actual_lead_result": {
+                "card": "CA",
+                "declarer_tricks": 10,
+                "target_tricks": 10,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "Q932",
+                  "card": "H3",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "KJ7",
+                  "card": "D7",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AQ983",
+                  "card": "C3",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 10,
+                  "target_tricks": 10,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -2535,6 +4018,143 @@
                 "tricks": 7
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "2S N",
+              "level": 2,
+              "strain": "S",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "CA",
+              "actual_lead_result": {
+                "card": "CA",
+                "declarer_tricks": 8,
+                "target_tricks": 8,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "8",
+                  "card": "S8",
+                  "rule": "singleton",
+                  "declarer_tricks": 8,
+                  "target_tricks": 8,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "53",
+                  "card": "H5",
+                  "rule": "top_of_doubleton",
+                  "declarer_tricks": 8,
+                  "target_tricks": 8,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "986",
+                  "card": "D6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 8,
+                  "target_tricks": 8,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "AKJT983",
+                  "card": "CA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 8,
+                  "target_tricks": 8,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": true
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "3NT W",
+              "level": 3,
+              "strain": "NT",
+              "declarer": "W",
+              "leader": "N",
+              "actual_lead": "S5",
+              "actual_lead_result": {
+                "card": "S5",
+                "declarer_tricks": 6,
+                "target_tricks": 9,
+                "delta": -3,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "J9654",
+                  "card": "S5",
+                  "rule": "fourth_best",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "972",
+                  "card": "H9",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "972",
+                  "card": "H7",
+                  "rule": "second_best",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "AKQJ",
+                  "card": "DA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "4",
+                  "card": "C4",
+                  "rule": "top_of_nothing",
+                  "declarer_tricks": 6,
+                  "target_tricks": 9,
+                  "delta": -3,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -2616,6 +4236,132 @@
                 "tricks": 12
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "6H S",
+              "level": 6,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "D8",
+              "actual_lead_result": {
+                "card": "D8",
+                "declarer_tricks": 11,
+                "target_tricks": 12,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AT6",
+                  "card": "S6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T9764",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 13,
+                  "target_tricks": 12,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "8",
+                  "card": "D8",
+                  "rule": "singleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "C",
+                  "holding": "T987",
+                  "card": "C8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 12,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "4H S",
+              "level": 4,
+              "strain": "H",
+              "declarer": "S",
+              "leader": "W",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 11,
+                "target_tricks": 10,
+                "delta": 1,
+                "makeable": true,
+                "matches_modelled_candidate": false
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AT6",
+                  "card": "S6",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "H",
+                  "holding": "T9764",
+                  "card": "H4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 13,
+                  "target_tricks": 10,
+                  "delta": 3,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "8",
+                  "card": "D8",
+                  "rule": "singleton",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "T987",
+                  "card": "C8",
+                  "rule": "third_from_even",
+                  "declarer_tricks": 11,
+                  "target_tricks": 10,
+                  "delta": 1,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         },
         {
@@ -2697,6 +4443,132 @@
                 "tricks": 9
               }
             ]
+          },
+          "opening_lead_dds": {
+            "Open Room": {
+              "contract": "3H N",
+              "level": 3,
+              "strain": "H",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 9,
+                "target_tricks": 9,
+                "delta": 0,
+                "makeable": true,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AKQ742",
+                  "card": "SA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "T",
+                  "card": "HT",
+                  "rule": "singleton",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "A64",
+                  "card": "D4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "Q95",
+                  "card": "C5",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 9,
+                  "target_tricks": 9,
+                  "delta": 0,
+                  "makeable": true,
+                  "is_actual_lead": false
+                }
+              ]
+            },
+            "Closed Room": {
+              "contract": "4H N",
+              "level": 4,
+              "strain": "H",
+              "declarer": "N",
+              "leader": "E",
+              "actual_lead": "SA",
+              "actual_lead_result": {
+                "card": "SA",
+                "declarer_tricks": 9,
+                "target_tricks": 10,
+                "delta": -1,
+                "makeable": false,
+                "matches_modelled_candidate": true
+              },
+              "candidates": [
+                {
+                  "suit": "S",
+                  "holding": "AKQ742",
+                  "card": "SA",
+                  "rule": "top_of_honor",
+                  "declarer_tricks": 9,
+                  "target_tricks": 10,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": true
+                },
+                {
+                  "suit": "H",
+                  "holding": "T",
+                  "card": "HT",
+                  "rule": "singleton",
+                  "declarer_tricks": 9,
+                  "target_tricks": 10,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "D",
+                  "holding": "A64",
+                  "card": "D4",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 9,
+                  "target_tricks": 10,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                },
+                {
+                  "suit": "C",
+                  "holding": "Q95",
+                  "card": "C5",
+                  "rule": "lowest_from_odd",
+                  "declarer_tricks": 9,
+                  "target_tricks": 10,
+                  "delta": -1,
+                  "makeable": false,
+                  "is_actual_lead": false
+                }
+              ]
+            }
           }
         }
       ]

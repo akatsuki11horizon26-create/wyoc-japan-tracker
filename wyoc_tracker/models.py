@@ -34,6 +34,7 @@ class MatchResult:
     opponent: str
     match_id: str
     round_number: int
+    team_position: int | None = None
     vp_for: float | None = None
     vp_against: float | None = None
     imp_for: int | None = None
@@ -48,6 +49,7 @@ class TeamReport:
     round_number: int
     match: MatchResult | None = None
     rank: int | None = None
+    rank_as_of: str | None = None
     previous_rank: int | None = None
     next_opponent: str | None = None
     next_start: str | None = None

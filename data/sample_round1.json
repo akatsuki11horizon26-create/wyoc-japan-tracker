@@ -1,0 +1,27 @@
+{
+  "round_number": 1,
+  "team": "U26 JAPAN",
+  "boards": [
+    {
+      "board": 6,
+      "dealer": "E",
+      "vulnerability": "E-W",
+      "pbn": "N:96432.92.JT87.97 AT85.K3.6543.A86 Q7.J6.KQ92.QJT32 KJ.AQT8754.A.K54",
+      "imp": 12,
+      "open_room": {
+        "contract": "6NT E",
+        "declarer": "E",
+        "lead": "DK",
+        "tricks": 13,
+        "score": -1470
+      },
+      "closed_room": {
+        "contract": "7H W",
+        "declarer": "W",
+        "lead": "C9",
+        "tricks": 13,
+        "score": -2210
+      }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+name: Analyze WYOC Japan round
+
+on:
+  workflow_dispatch:
+    inputs:
+      round_number:
+        description: "Round number to retrieve from WBF"
+        required: true
+        default: "1"
+        type: string
+      force_refresh:
+        description: "Do not use a cached HTML response"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Generate report
+        env:
+          INPUT_ROUND_NUMBER: ${{ inputs.round_number }}
+          INPUT_FORCE_REFRESH: ${{ inputs.force_refresh }}
+        run: |
+          if [ -n "$INPUT_ROUND_NUMBER" ]; then ROUND="$INPUT_ROUND_NUMBER"; else ROUND=1; fi
+          if [ "$INPUT_FORCE_REFRESH" = "true" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
+          python -m wyoc_tracker.cli --round "$ROUND" --output-dir reports --cache-dir data/cache $REFRESH
+      - name: Upload report and source cache
+        uses: actions/upload-artifact@v4
+        with:
+          name: wyoc-round-${{ inputs.round_number || 'scheduled' }}
+          path: |
+            reports/
+            data/cache/
+          if-no-files-found: error

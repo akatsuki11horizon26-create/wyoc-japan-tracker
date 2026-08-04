@@ -1,0 +1,41 @@
+{
+  "round_number": 5,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 25,
+      "rank_as_of": "公式順位ページ・Round 5取得時点",
+      "previous_rank": 25,
+      "rank_change": 0,
+      "opponent": "LIANG",
+      "imp_for": 37,
+      "imp_against": 25,
+      "vp_for": 13.48,
+      "vp_against": 6.52
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 16,
+      "rank_as_of": "公式順位ページ・Round 5取得時点",
+      "previous_rank": 13,
+      "rank_change": -3,
+      "opponent": "SENZA FRASEGGIARE",
+      "imp_for": 18,
+      "imp_against": 43,
+      "vp_for": 3.79,
+      "vp_against": 16.21
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 13,
+      "rank_as_of": "公式順位ページ・Round 5取得時点",
+      "previous_rank": 18,
+      "rank_change": 5,
+      "opponent": "BEIJING SMZY CRIMSON",
+      "imp_for": 36,
+      "imp_against": 17,
+      "vp_for": 15.06,
+      "vp_against": 4.94
+    }
+  ]
+}

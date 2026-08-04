@@ -10,6 +10,10 @@ on:
     paths:
       - ".github/workflows/deploy-pages.yml"
       - "reports/**"
+  pull_request:
+    paths:
+      - ".github/workflows/deploy-pages.yml"
+      - "reports/**"
 
 permissions:
   contents: read
@@ -17,11 +21,11 @@ permissions:
   id-token: write
 
 concurrency:
-  group: github-pages
+  group: github-pages-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'production' }}
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     if: >-
       ${{ github.event_name != 'workflow_run' ||
           (github.event.workflow_run.conclusion == 'success' &&
@@ -29,15 +33,12 @@ jobs:
            github.event.workflow_run.event != 'pull_request') }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Check out main
+      - name: Check out reports
         uses: actions/checkout@v6
         with:
-          ref: main
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -116,6 +117,16 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    if: ${{ needs.build.result == 'success' && github.event_name != 'pull_request' }}
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -1,0 +1,41 @@
+{
+  "round_number": 3,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 25,
+      "rank_as_of": "公式順位ページ・Round 3取得時点",
+      "previous_rank": 26,
+      "rank_change": 1,
+      "opponent": "CHANGNING CONTRACT",
+      "imp_for": 30,
+      "imp_against": 47,
+      "vp_for": 5.36,
+      "vp_against": 14.64
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 14,
+      "rank_as_of": "公式順位ページ・Round 3取得時点",
+      "previous_rank": 17,
+      "rank_change": 3,
+      "opponent": "CT U26",
+      "imp_for": 76,
+      "imp_against": 33,
+      "vp_for": 18.76,
+      "vp_against": 1.24
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 16,
+      "rank_as_of": "公式順位ページ・Round 3取得時点",
+      "previous_rank": 10,
+      "rank_change": -6,
+      "opponent": "CHANGNING SHANGHAI",
+      "imp_for": 23,
+      "imp_against": 33,
+      "vp_for": 7.03,
+      "vp_against": 12.97
+    }
+  ]
+}

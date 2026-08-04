@@ -65,23 +65,30 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
-      - name: Generate report
+      - name: Generate latest completed report
         env:
           INPUT_ROUND_NUMBER: ${{ inputs.round_number }}
           INPUT_FORCE_REFRESH: ${{ inputs.force_refresh }}
         run: |
-          ROUND="${INPUT_ROUND_NUMBER:-3}"
-          if [ "$INPUT_FORCE_REFRESH" = "true" ] || [ "$ROUND" = "3" ]; then REFRESH="--no-cache"; else REFRESH=""; fi
-          echo "REPORT_ROUND=$ROUND" >> "$GITHUB_ENV"
-          python -m wyoc_tracker.cli \
-            --round "$ROUND" \
+          REQUESTED_ROUND="${INPUT_ROUND_NUMBER:-auto}"
+          if [ "$INPUT_FORCE_REFRESH" = "true" ] || [ "$REQUESTED_ROUND" = "auto" ]; then
+            REFRESH="--no-cache"
+          else
+            REFRESH=""
+          fi
+
+          RESULT=$(python -m wyoc_tracker.cli \
+            --round "$REQUESTED_ROUND" \
             --output-dir reports \
             --cache-dir data/cache \
             --history-dir data/history \
-            $REFRESH
+            $REFRESH)
+          echo "$RESULT"
+
+          ACTUAL_ROUND=$(printf '%s\n' "$RESULT" | tail -n 1 | python -c 'import json, sys; print(json.load(sys.stdin)["round"])')
+          echo "REPORT_ROUND=$ACTUAL_ROUND" >> "$GITHUB_ENV"
 
       - name: Verify output formats
-        if: env.REPORT_ROUND != 'auto'
         run: |
           PADDED=$(printf '%02d' "$REPORT_ROUND")
           test -s "reports/round-${PADDED}.md"

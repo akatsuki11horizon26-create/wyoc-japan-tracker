@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import html
 import json
+import re
 from pathlib import Path
 from typing import Any
 
+from .dds import parse_contract
 from .pbn import SUITS, SUIT_SYMBOLS, parse_pbn
 
 DDS_NOTE = (
@@ -36,6 +38,7 @@ RULE_LABELS = {
     "singleton": "singleton",
     "void": "void",
 }
+PASS_OUT_RE = re.compile(r"^\s*(?:PASS(?:ED)?\s*OUT|ALL\s*PASS|AP|P)\s*$", re.I)
 
 
 def normalize_markdown(markdown: str) -> str:
@@ -47,8 +50,12 @@ def normalize_markdown(markdown: str) -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
+def _is_passed_out(contract: Any) -> bool:
+    return bool(contract and PASS_OUT_RE.match(str(contract)))
+
+
 def validate_fixed_leads(payload: dict[str, Any]) -> None:
-    """Refuse HTML when any contract lacks complete fixed-lead DDS values."""
+    """Refuse HTML when any real contract lacks complete fixed-lead DDS values."""
     failures: list[str] = []
     for team in payload.get("teams", []):
         team_name = team.get("team", "unknown")
@@ -59,8 +66,14 @@ def validate_fixed_leads(payload: dict[str, Any]) -> None:
                 room = board.get(room_key)
                 if not room or not room.get("contract"):
                     continue
-                analysis = analyses.get(room_name)
+                contract = room.get("contract")
                 label = f"{team_name} Board {board_no} {room_name}"
+                if _is_passed_out(contract):
+                    continue
+                if parse_contract(str(contract)) is None:
+                    failures.append(f"{label}: unparseable contract {contract!r}")
+                    continue
+                analysis = analyses.get(room_name)
                 if not analysis:
                     failures.append(f"{label}: analysis missing")
                     continue
@@ -108,6 +121,8 @@ def _room_html(room_name: str, room: dict[str, Any] | None, analysis: dict[str, 
         f"トリック {_esc(room.get('tricks') if room.get('tricks') is not None else '確認できず')} / "
         f"スコア {_esc(room.get('score') if room.get('score') is not None else '確認できず')}</p>"
     )
+    if _is_passed_out(room.get("contract")):
+        return f"<section class='room'><h4>{_esc(room_name)}</h4>{details}<p>Passed Outのため固定リードDDS対象外。</p></section>"
     if not analysis:
         return f"<section class='room'><h4>{_esc(room_name)}</h4>{details}</section>"
     rows = []

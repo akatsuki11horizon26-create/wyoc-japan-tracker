@@ -105,8 +105,8 @@ jobs:
             data/cache/
           if-no-files-found: error
 
-      - name: Persist reports on main
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+      - name: Persist generated reports
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -115,5 +115,9 @@ jobs:
             echo "No new report data to commit."
           else
             git commit -m "chore: update WYOC reports [skip ci]"
-            git push
+            if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+              git push origin "HEAD:${{ github.head_ref }}"
+            else
+              git push
+            fi
           fi

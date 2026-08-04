@@ -1,0 +1,41 @@
+{
+  "round_number": 7,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 15,
+      "rank_as_of": "公式順位ページ・Round 7取得時点",
+      "previous_rank": 20,
+      "rank_change": 5,
+      "opponent": "TIANJIN",
+      "imp_for": 27,
+      "imp_against": 36,
+      "vp_for": 7.29,
+      "vp_against": 12.71
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 10,
+      "rank_as_of": "公式順位ページ・Round 7取得時点",
+      "previous_rank": 11,
+      "rank_change": 1,
+      "opponent": "SHANDONG UNIVERSITY",
+      "imp_for": 18,
+      "imp_against": 24,
+      "vp_for": 8.13,
+      "vp_against": 11.87
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 8,
+      "rank_as_of": "公式順位ページ・Round 7取得時点",
+      "previous_rank": 19,
+      "rank_change": 11,
+      "opponent": "WEISHU HZ SGP",
+      "imp_for": 54,
+      "imp_against": 10,
+      "vp_for": 18.87,
+      "vp_against": 1.13
+    }
+  ]
+}

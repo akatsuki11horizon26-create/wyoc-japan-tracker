@@ -8,6 +8,7 @@ import sys
 
 from . import scraper as scraper_module
 from .bbo import configure_scraper
+from .fixed_leads import hydrate_missing_fixed_leads
 from .history import apply_history, write_snapshot
 from .html_report import write_outputs
 from .models import BoardResult, RoomResult, TeamReport
@@ -79,11 +80,6 @@ def main(argv: list[str] | None = None) -> int:
                 latest = discover_latest_completed_round(cache_dir=cache_dir)
                 round_number = latest
             else:
-                # A manually requested round is fetched directly. The round's
-                # own score, board and hand pages are the source of truth; a
-                # stale tournament index must not block an already published
-                # round. fetch_reports still raises FetchError when required
-                # official data cannot be retrieved.
                 round_number = requested
                 latest = requested
             reports = fetch_reports(
@@ -94,6 +90,7 @@ def main(argv: list[str] | None = None) -> int:
 
         apply_history(reports, args.history_dir)
         markdown, payload = render_report(reports, round_number)
+        hydrate_missing_fixed_leads(payload)
         write_outputs(markdown, payload, args.output_dir, round_number)
         write_snapshot(reports, args.history_dir)
         print(

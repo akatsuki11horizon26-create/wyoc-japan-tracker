@@ -38,7 +38,12 @@ RULE_LABELS = {
     "singleton": "singleton",
     "void": "void",
 }
-PASS_OUT_RE = re.compile(r"^\s*(?:PASS(?:ED)?\s*OUT|ALL\s*PASS|AP|P)\s*$", re.I)
+# WBF result cells may append a seat to Pass (for example ``Pass N``).
+# It is still a passed-out board and has no opening lead to analyse.
+PASS_OUT_RE = re.compile(
+    r"^\s*(?:PASS(?:ED)?(?:\s*OUT)?|ALL\s*PASS|AP|P)(?:\s+[NESW])?\s*$",
+    re.I,
+)
 
 
 def normalize_markdown(markdown: str) -> str:

@@ -118,7 +118,7 @@ jobs:
           path: _site
 
   deploy:
-    if: ${{ needs.build.result == 'success' && github.event_name != 'pull_request' }}
+    if: ${{ needs.build.result == 'success' }}
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10

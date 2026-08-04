@@ -1,0 +1,121 @@
+name: Deploy WYOC reports to Pages
+
+on:
+  workflow_run:
+    workflows: ["Analyze WYOC Japan round"]
+    types: [completed]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/deploy-pages.yml"
+      - "reports/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    if: >-
+      ${{ github.event_name != 'workflow_run' ||
+          (github.event.workflow_run.conclusion == 'success' &&
+           github.event.workflow_run.head_branch == 'main' &&
+           github.event.workflow_run.event != 'pull_request') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build static report site
+        run: |
+          python - <<'PY'
+          from html import escape
+          from pathlib import Path
+          import shutil
+
+          reports_dir = Path("reports")
+          site_dir = Path("_site")
+          site_reports = site_dir / "reports"
+
+          if site_dir.exists():
+              shutil.rmtree(site_dir)
+          site_reports.mkdir(parents=True)
+
+          for source in reports_dir.iterdir():
+              if source.is_file() and source.suffix.lower() in {".html", ".json", ".md"}:
+                  shutil.copy2(source, site_reports / source.name)
+
+          rounds = []
+          for path in reports_dir.glob("round-*.html"):
+              try:
+                  number = int(path.stem.split("-")[1])
+              except (IndexError, ValueError):
+                  continue
+              rounds.append((number, path.name))
+          rounds.sort(reverse=True)
+
+          if not rounds:
+              raise SystemExit("No generated HTML reports were found")
+
+          latest_round, latest_file = rounds[0]
+          shutil.copy2(reports_dir / latest_file, site_dir / "latest.html")
+
+          links = "\n".join(
+              f'<li><a href="reports/{escape(filename)}">Round {number}</a> '
+              f'(<a href="reports/round-{number:02d}.json">JSON</a> / '
+              f'<a href="reports/round-{number:02d}.md">Markdown</a>)</li>'
+              for number, filename in rounds
+          )
+
+          index = f"""<!doctype html>
+          <html lang="ja">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>WYOC Japan Tracker</title>
+            <style>
+              body {{ font-family: system-ui, sans-serif; max-width: 820px; margin: 0 auto; padding: 32px 20px; line-height: 1.7; background: #f5f5f5; color: #222; }}
+              main {{ background: white; padding: 28px; border-radius: 12px; box-shadow: 0 2px 12px #0001; }}
+              .latest {{ display: inline-block; padding: 12px 18px; border-radius: 8px; background: #1f6feb; color: white; text-decoration: none; font-weight: 700; }}
+              li {{ margin: 10px 0; }}
+            </style>
+          </head>
+          <body>
+            <main>
+              <h1>WYOC Japan Tracker</h1>
+              <p>U26 JAPAN、U21 JAPAN、U26 Women JAPANの試合・DDS解析レポートです。</p>
+              <p><a class="latest" href="latest.html">最新レポート：Round {latest_round}</a></p>
+              <h2>ラウンド一覧</h2>
+              <ul>{links}</ul>
+            </main>
+          </body>
+          </html>
+          """
+          (site_dir / "index.html").write_text(index, encoding="utf-8")
+          (site_dir / ".nojekyll").write_text("", encoding="utf-8")
+          PY
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

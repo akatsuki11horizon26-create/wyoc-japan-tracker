@@ -1,0 +1,41 @@
+{
+  "round_number": 4,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 25,
+      "rank_as_of": "公式順位ページ・Round 4取得時点",
+      "previous_rank": 28,
+      "rank_change": 3,
+      "opponent": "YOUTH SQUAD OF SXIT",
+      "imp_for": 42,
+      "imp_against": 38,
+      "vp_for": 11.28,
+      "vp_against": 8.72
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 16,
+      "rank_as_of": "公式順位ページ・Round 4取得時点",
+      "previous_rank": 11,
+      "rank_change": -5,
+      "opponent": "BEIJING NEW YOUTH",
+      "imp_for": 19,
+      "imp_against": 36,
+      "vp_for": 5.36,
+      "vp_against": 14.64
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 14,
+      "rank_as_of": "公式順位ページ・Round 4取得時点",
+      "previous_rank": 16,
+      "rank_change": 2,
+      "opponent": "SHANGHAI HRH PINK",
+      "imp_for": 28,
+      "imp_against": 48,
+      "vp_for": 3.74,
+      "vp_against": 14.26
+    }
+  ]
+}

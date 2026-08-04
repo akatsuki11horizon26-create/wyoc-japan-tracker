@@ -1,0 +1,41 @@
+{
+  "round_number": 6,
+  "teams": [
+    {
+      "team": "U21 JAPAN",
+      "rank": 21,
+      "rank_as_of": "公式順位ページ・Round 6取得時点",
+      "previous_rank": 23,
+      "rank_change": 2,
+      "opponent": "DALIAN",
+      "imp_for": 53,
+      "imp_against": 21,
+      "vp_for": 17.34,
+      "vp_against": 2.66
+    },
+    {
+      "team": "U26 JAPAN",
+      "rank": 9,
+      "rank_as_of": "公式順位ページ・Round 6取得時点",
+      "previous_rank": 16,
+      "rank_change": 7,
+      "opponent": "5NT BRIDGE TEAM",
+      "imp_for": 48,
+      "imp_against": 18,
+      "vp_for": 17.04,
+      "vp_against": 2.96
+    },
+    {
+      "team": "U26 Women JAPAN",
+      "rank": 10,
+      "rank_as_of": "公式順位ページ・Round 6取得時点",
+      "previous_rank": 15,
+      "rank_change": 5,
+      "opponent": "SHANGHAI HRH ORANGE",
+      "imp_for": 30,
+      "imp_against": 38,
+      "vp_for": 7.56,
+      "vp_against": 12.44
+    }
+  ]
+}
